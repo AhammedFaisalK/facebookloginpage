@@ -1,0 +1,256 @@
+.{
+
+ 
+    
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+display: flex;
+align-items: center;
+width: 100%;
+height: 100vh;
+    background: #f0f2f5;
+    justify-content: center;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.left, .right , form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: -56px;
+   
+}
+.left{
+    width: 500px;
+    align-items: flex-start;
+    margin-left: 113px;
+}
+.left img{
+    
+    height: 106px;
+    margin: -28px;
+    border: 0;
+}
+.left h2{
+   font-size: 28px;
+   font-weight: normal;
+    height: 200px;
+    line-height: 32px;
+    width: 500px;
+    color: #1c1e21;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;;
+}
+.right{
+    width: 400px;
+    margin-right: 78px;
+}
+form{
+    background-color:white;
+    border-radius: 10px;
+    display:flex;
+    width: 350px;
+    padding:  26px 18px 17px 18px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px  0 rgba(0, 0, 0, 0.2), 0 6px 28px 0 rgba(0, 0, 0, 0.19);
+height: 300px;
+
+
+}
+form input{
+
+    width: 330px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #999;
+   
+    
+    
+    font-size: 17px;
+height: 22px;
+
+}
+.loginbtn{
+
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    text-align: center;
+    font-family: 'Arial';
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    margin-top: 6px;
+}
+.loginbtn:hover{
+background-color: #4257b2;
+}
+.forget{
+    margin: 15px 0;
+    text-decoration: none;
+    color: #1877f2;
+    font-family: Arial;
+    font-size: 14px;
+   
+}
+.sign-up{
+padding: 20px;
+border-top: 1px solid#999;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.signupbtn{
+    background-color: #42b72a;
+    padding: 0 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    border-radius: 6px;
+    font-family: Arial;
+    font-weight: 600;
+    transition: 0.5s;
+    line-height: 48px;
+}
+.signupbtn:hover{
+    background-color: green;
+}
+.forget:hover{
+    text-decoration: underline;
+    
+}
+input:focus{
+    border-color: #1877f2;
+    box-shadow:rgba(0, 0, 0, 2px);
+    caret-color: #1877f2;
+}
+.right p{
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+}
+.right p a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #1c1e21;
+}
+
+@media(max-width:910px){
+    .container{
+        flex-direction: column;
+    }
+    
+    .left{
+       
+    
+        align-content:center;
+        align-items:center;
+    }
+    
+    .left h2{
+        height: 55px;
+      text-align:start;
+      width: 380px;
+        font-size: 24px;
+        line-height: 28px;
+    
+    }
+    .left img{
+        padding-top:25px ;
+        padding-right: 35px;
+    }
+    
+    .right{
+        padding-left: 100PX;
+        align-content:center;
+        align-items:center;
+    }
+}
+
+@media(max-width:768px){
+    .container{
+        flex-direction: column;
+    }
+    
+    .left{
+       
+    
+        align-content:center;
+        align-items:center;
+    }
+    
+    .left h2{
+        height: 55px;
+      text-align:start;
+      width: 380px;
+        font-size: 24px;
+        line-height: 28px;
+    
+    }
+    .left img{
+        padding-top:25px ;
+        padding-right: 35px;
+    }
+    
+    .right{
+        padding-left: 100PX;
+        align-content:center;
+        align-items:center;
+    }
+}
+
+
+@media(max-width:600px){
+    .container{
+        flex-direction: column;
+    }
+    
+    .left{
+       
+    
+        align-content:center;
+        align-items:center;
+    }
+    
+    .left h2{
+        height: 55px;
+      text-align:start;
+      width: 380px;
+        font-size: 24px;
+        line-height: 28px;
+    
+    }
+    .left img{
+        padding-top:25px ;
+        padding-right: 35px;
+    }
+    
+    .right{
+        padding-left: 100PX;
+        align-content:center;
+        align-items:center;
+    }
+}
